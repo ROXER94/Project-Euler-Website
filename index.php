@@ -6,7 +6,7 @@
 		<meta name="author" content="Robert Oxer" />
 		<meta name="description" content="A website focused on presenting my solutions to the wonderful and challenging Project Euler problems" />
 		<meta name="keywords" content="Project Euler,programming,mathematics,problems,puzzles" />
-		<title>Project Euler - Testing</title>
+		<title>Project Euler</title>
 		<link rel="shortcut icon" href="images/Euler.jpg"/>	
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="CSS/CSS.css">
