@@ -1,6 +1,6 @@
 # Project-Euler-Website
 
-![Project Euler](https://projecteuler.net/themes/default/pe_logo_default.png)
+![Project Euler](https://raw.githubusercontent.com/ROXER94/Project-Euler-Website/master/images/pe_logo.png)
 
 With this web application, I've converted my Project Euler solutions stored on Github from a boring repository to a fresh and lively website. This projects highlights many web development tools available at my disposal, namely PHP, SQL, JavaScript, Ajax, jQuery, and Bootstrap.
 
