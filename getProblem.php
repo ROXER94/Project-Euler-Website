@@ -19,7 +19,7 @@
 			$value = round($value, 2) . "ms";
 		} elseif ($value > 1 and $value < 60) {
 			$value = round($value, 2) . "s";
-		}else {
+		} else {
 			$min = (int)($value / 60);
 			$value -= $min * 60;
 			$value = $min . "min " . round($value, 2) . "s";
@@ -66,15 +66,7 @@
 		$TimeSolved      = $Entries['TimeSolved'];
 		$ComputationTime = $Entries['ComputationTime'];
 
-		$link = "https://projecteuler.net/problem=";
-		if (strlen($ProblemNumber) == 1) {
-			$zeroes = "00";
-		} elseif (strlen($ProblemNumber) == 2) {
-			$zeroes = "0";
-		} else {
-			$zeroes = "";
-		}
-		$link .= $zeroes . $ProblemNumber;
+		$link = "https://projecteuler.net/problem=" . sprintf('%03d', $ProblemNumber);
 
 		print("<div class='modal-content'>");
 		print("<div class='modal-header'><button type='button' class='close' data-dismiss='modal'>&times;</button><h2 class='link modal-title'><a href='$link' target='_blank'>Problem $ProblemNumber</a></h2> $Title - Solution</div>");
